@@ -7,7 +7,7 @@ List<Estudiante> listaEstudiantes = new List<Estudiante>();
 for(int i=1;i<leer.Length;i++) 
 {
     string[] subs = leer[i].Split(',');
-    //Se crea el objeto    
+    
     Estudiante est = new Estudiante()
     {
         Id=int.Parse(subs[0]), 
